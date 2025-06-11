@@ -178,3 +178,104 @@ footer {
   opacity: 1;
   transform: translateY(0);
 }
+
+
+@media (max-width: 767px) {
+  .background-image {
+    position: fixed;
+    width: 100%;
+    height: 130%;
+    top: -20%;
+    z-index: 0;
+  }
+  
+  h1 {
+    font-size: 2.4rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    text-shadow: 
+      0 0 8px var(--black),
+      0 0 16px var(--black),
+      0 0 24px var(--black),
+      0 0 32px var(--black),
+      0 0 40px var(--black),
+      0 0 60px var(--black); 
+  }
+
+  .content {
+    padding: 0 15px;
+  }
+
+  .hourglass-video video {
+    width: 150px;
+    margin: 1rem 0;
+  }
+
+  .notify-form {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+    margin: 1rem auto;
+  }
+
+  .notify-form input,
+  .notify-form button {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 0.9rem;
+  }
+
+  .success-message {
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .social-links {
+    gap: 15px;
+    font-size: 1.3rem;
+    margin-left: 5%;
+  }
+
+  footer {
+    bottom: 15px;
+  }
+}
+
+@media (max-width: 360px) {
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  .hourglass-video video {
+    width: 120px;
+  }
+
+  .social-links {
+    gap: 12px;
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .hourglass-video video {
+    width: 200px;
+  }
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+button, a {
+  min-width: 44px;
+  min-height: 44px;
+}
