@@ -162,12 +162,6 @@ footer {
     brightness(1.2);
 }
 
-@media (max-width: 600px) {
-  .hourglass-video video {
-    width: 36px;
-  }
-}
-
 .fade-scroll {
   opacity: 0;
   transform: translateY(20px);
