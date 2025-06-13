@@ -1,4 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
+  // Set hourglass video playback speed to 1.75x
+  const hourglassVideo = document.querySelector('.hourglass-video video');
+  if (hourglassVideo) {
+    hourglassVideo.playbackRate = 1.75;
+  }
+
   // Form submission handling
   const form = document.querySelector("#notifyForm");
   const message = document.querySelector(".success-message");

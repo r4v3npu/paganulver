@@ -71,14 +71,6 @@ h1 {
   user-select: none;
 }
 
-.hourglass-gif {
-  width: 100%;
-  height: auto;
-  filter: drop-shadow(0 0 30px black);
-  pointer-events: none;
-  user-select: none;
-}
-
 @keyframes rotate {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
@@ -207,12 +199,6 @@ footer {
 
   .hourglass-video video {
     width: 150px;
-    margin: 1rem 0;
-  }
-
-  .hourglass-gif {
-    width: 150px;
-    margin: 1rem 0;
   }
 
   .notify-form {
@@ -258,10 +244,6 @@ footer {
     width: 120px;
   }
 
-  .hourglass-gif {
-    width: 120px;
-  }
-
   .social-links {
     gap: 12px;
     font-size: 1.2rem;
@@ -275,10 +257,7 @@ footer {
   }
 
   .hourglass-video video {
-    width: 200px;
-  }
-  .hourglass-gif {
-    width: 200px;
+    width: 100px;
   }
 }
 
